@@ -1,0 +1,53 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    margin:20px;
+    background-color:rgb(219, 240, 101);
+}
+
+.container{
+    text-align: center;
+    border:6px solid black;
+    padding:30px;
+
+}
+
+.captcha-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px;
+
+}
+
+canvas{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:10px;
+    border:3px solid gainsboro;
+
+}
+
+input[type="text"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    background-color: blue;
+    color:white;
+    border:blue;
+    cursor:pointer;
+
+
+
+}
+
+button:hover{
+    background-color: darkblue;
+}
